@@ -1,0 +1,35 @@
+.financial-card {
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+    border: 1px solid #292d38;
+    border-radius: 12px;
+    background: #13161e;
+}
+
+.card-title {
+    margin-bottom: 6px;
+    color: #7b86a0;
+    font-size: 12px;
+}
+
+.card-value {
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.card-detail {
+    margin-top: 4px;
+    font-size: 12px;
+}
+
+.card-detail.positive {
+    color: #56ef91;
+}
+
+.card-detail.negative {
+    color: #ff5364;
+}

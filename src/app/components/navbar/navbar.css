@@ -1,0 +1,72 @@
+.topbar {
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    background: #12151d;
+    border-bottom: 1px solid #292d38;
+}
+
+.couple-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.profile-button {
+    width: 28px;
+    height: 28px;
+    border: none;
+    border-radius: 50%;
+    background: #76eba5;
+    cursor: pointer;
+}
+
+.couple-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.couple-text strong {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.couple-text span {
+    color: #75809a;
+    font-size: 12px;
+}
+
+.topbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.month-badge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 12px;
+    border-radius: 20px;
+    background: #17251f;
+    color: #5df293;
+    font-size: 12px;
+}
+
+.status-dog {
+    width: 6px;
+    height: 6px;
+    background: #5df293;
+    border-radius: 50%;
+}
+
+.share-button {
+    padding: 10px 16px;
+    border: 1px solid #292d38;
+    border-radius: 8px;
+    background: #171a23;
+    color: white;
+    cursor: pointer;
+}

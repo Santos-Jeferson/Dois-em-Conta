@@ -1,1 +1,16 @@
-<p>financial-card works!</p>
+<article class="financial-card">
+
+    <span class="card-title">
+        {{ title() }}
+    </span>
+
+    <strong class="card-value">
+        {{ value() }}
+    </strong>
+
+    @if (detail()) {
+        <span class="card-detail" [class.positive]="tone() === 'positive'" [class.negative]="tone() === 'negative'">
+            {{ detail() }}
+        </span>
+    }
+</article>

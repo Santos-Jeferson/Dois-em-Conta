@@ -1,9 +1,14 @@
 import { Component } from '@angular/core';
 
+import { Navbar } from '../../components/navbar/navbar';
+import { FinancialCard } from '../../components/financial-card/financial-card';
 @Component({
-  imports: [],
   selector: 'app-dashboard',
-  styleUrl: './dashboard.css',
+  imports: [
+    Navbar,
+    FinancialCard
+  ],
   templateUrl: './dashboard.html',
+  styleUrl: './dashboard.css'
 })
 export class Dashboard {}

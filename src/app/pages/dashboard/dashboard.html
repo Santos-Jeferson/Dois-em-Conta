@@ -1,1 +1,35 @@
-<p>dashboard works!</p>
+<app-navbar></app-navbar>
+
+<main class="dashboard">
+
+    <section class="summary-grid">
+
+        <app-financial-card
+        title="Gastos totais"
+        value="R$ 4.839"
+        detail="+12%"
+        tone="negative" 
+        />
+
+        <app-financial-card
+        title="Economias"
+        value="R$ 1.230"
+        detail="+8%"
+        tone="positive"
+        />
+
+        <app-financial-card
+        title="Slado conjunto"
+        value="R$ 8.000"
+        />
+
+        <app-financial-card
+        title="Meta do mês"
+        value="67%"
+        detail="R$ 1.340 / R$ 2.000"
+        tone="positive"
+        />
+        
+    </section>
+
+</main>

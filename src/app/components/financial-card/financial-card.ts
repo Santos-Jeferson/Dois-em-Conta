@@ -1,9 +1,19 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 
 @Component({
-  imports: [],
   selector: 'app-financial-card',
-  styleUrl: './financial-card.css',
+  imports: [],
   templateUrl: './financial-card.html',
+  styleUrl: './financial-card.css'
 })
-export class FinancialCard {}
+export class FinancialCard {
+  
+  title = input.required<string>();
+
+  value = input.required<string>();
+
+  detail = input<string>('');
+
+  tone = input<'positive' | 'negative' | 'neutral'>('neutral');
+
+}
